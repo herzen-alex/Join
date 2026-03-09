@@ -1,5 +1,5 @@
 
-const BASE_URL = "https://join-428-default-rtdb.europe-west1.firebasedatabase.app/";
+const BASE_URL = "https://join-app-b45d9-default-rtdb.europe-west1.firebasedatabase.app/";
 
 /**
  * Handles the sign-up process when the user submits the registration form.

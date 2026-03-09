@@ -349,7 +349,7 @@ async function saveTaskToFirebase(taskData) {
  * @function postTaskData
  */
 async function postTaskData(taskData) {
-    const BASE_URL = 'https://join-428-default-rtdb.europe-west1.firebasedatabase.app/';
+    const BASE_URL = 'https://join-app-b45d9-default-rtdb.europe-west1.firebasedatabase.app/';
     const TASKS_ENDPOINT = 'tasks.json';
     return await fetch(`${BASE_URL}${TASKS_ENDPOINT}`, {
         method: 'POST',

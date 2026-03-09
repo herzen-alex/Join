@@ -13,7 +13,7 @@ window.selectedContacts = [];
  * @returns {Promise<Object|null>} The saved task data or null in case of an error.
  */
 async function saveTaskToFirebase(taskData) {
-    const url = "https://join-428-default-rtdb.europe-west1.firebasedatabase.app/tasks.json";
+    const url = "https://join-app-b45d9-default-rtdb.europe-west1.firebasedatabase.app/tasks.json";
     try {
         const response = await postData(url, taskData);
         return await processResponse(response);
@@ -116,7 +116,7 @@ function getInitials(name) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-    const BASE_URL = "https://join-428-default-rtdb.europe-west1.firebasedatabase.app/";
+    const BASE_URL = "https://join-app-b45d9-default-rtdb.europe-west1.firebasedatabase.app/";
     const CONTACTS_ENDPOINT = "contacts.json";
     const contactInput = document.getElementById('contactInput');
     const dropdownContent = document.getElementById('dropdownContent');

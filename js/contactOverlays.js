@@ -273,7 +273,7 @@ function toggleColumns() {
  * @param {Event} event - The click event.
  */
 document.addEventListener('DOMContentLoaded', function () {
-    const BASE_URL = "https://join-428-default-rtdb.europe-west1.firebasedatabase.app/";
+    const BASE_URL = "https://join-app-b45d9-default-rtdb.europe-west1.firebasedatabase.app";
     document.getElementById('content').addEventListener('click', function (event) {
         const contactItem = event.target.closest('.contact-item');
         if (contactItem) {

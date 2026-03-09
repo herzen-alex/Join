@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
  * @throws {Error} Throws an error if the fetch operation fails or the response is not OK.
  */
 async function loadData(endpoint) {
-    const BASE_URL = 'https://join-428-default-rtdb.europe-west1.firebasedatabase.app/';
+    const BASE_URL = 'https://join-app-b45d9-default-rtdb.europe-west1.firebasedatabase.app/';
     try {
         const response = await fetch(`${BASE_URL}${endpoint}.json`);
         if (!response.ok) throw new Error('Failed to load data');
